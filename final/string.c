@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-size_t my_strlen(char *s)
+int my_strlen(char *s)
 {
    char *p = s;
-
+    printf("hello");
    while (*p)
       ++p;
 
