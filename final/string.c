@@ -18,7 +18,7 @@ int main(void)
       "Git tutorials",
       "Tutorials Point"
    };
-
+    printf("I'm in main function");
    for (i = 0; i < 2; ++i)
       
    printf("string lenght of %s = %d\n", s[i], my_strlen(s[i]));
