@@ -20,8 +20,9 @@ int main(void)
    };
     printf("I'm in main function");
    for (i = 0; i < 2; ++i)
-      
+{
+  printf("Trying to merge changes in two branches");    
    printf("string lenght of %s = %d\n", s[i], my_strlen(s[i]));
-
+}
    return 0;
 }
