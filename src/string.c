@@ -1,13 +1,15 @@
 #include <stdio.h>
 
-size_t my_strlen(char *s)
+char *my_strlen(char *s)
 {
-   //char *p = s;
-    const char *p=s;
-   while (*p)
-      ++p;
 
-   return (p - s);
+   char *p = t;
+
+   while (*t++==*s++)
+
+   //char *p = s;
+    //const char *p=s;
+     return p;
 }
 
 int main(void)
