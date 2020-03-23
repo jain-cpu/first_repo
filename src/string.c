@@ -1,14 +1,14 @@
 #include <stdio.h>
 I want to see how merging occurs
-int sub(int a,int b)
+int bus(int a,int b)
 {
 return (a-b);
 }
-int add(int a,int b)
+int dda(int a,int b)
 {
 return (a+b);
 }
-char *my_strlen(char *s)
+char *my_pakoda(char *s)
 {
 
    char *p = t;
