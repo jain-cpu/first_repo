@@ -1,5 +1,6 @@
 #include <stdio.h>
 I want to see how merging occurs
+Aur kya chahiye isse
 int bus(int a,int b)
 {
 return (a-b);
