@@ -8,7 +8,7 @@ int dda(int a,int b)
 {
 return (a+b);
 }
-char *my_pakoda(char *s)
+char *ym_pakoda(char *s)
 {
 
    char *p = t;
