@@ -1,0 +1,26 @@
+From 5bc7fc3b8f25fc6a3755414754a97d71813c8f3b Mon Sep 17 00:00:00 2001
+From: Aakarsh Jain <aakarsh.1421001@kiet.edu>
+Date: Mon, 23 Mar 2020 12:34:27 +0530
+Subject: [PATCH] add sub function which of no use
+
+---
+ src/string.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+diff --git a/src/string.c b/src/string.c
+index b972a32..1181aaa 100644
+--- a/src/string.c
++++ b/src/string.c
+@@ -1,5 +1,8 @@
+ #include <stdio.h>
+-
++int sub(int a,int b)
++{
++return (a-b);
++}
+ int add(int a,int b)
+ {
+ return (a+b);
+-- 
+2.7.4
+

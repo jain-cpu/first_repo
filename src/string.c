@@ -1,4 +1,5 @@
 #include <stdio.h>
+I want to see how merging occurs
 int sub(int a,int b)
 {
 return (a-b);
